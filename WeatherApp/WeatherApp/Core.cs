@@ -11,7 +11,7 @@ namespace WeatherApp
             string key = "dadd3ae667817373dc7fd24ae347ac4c";
             string queryString = "http://api.openweathermap.org/data/2.5/weather?zip="
                 + zipCode + ",my&appid=" + key + "&units=imperial";
-
+              //
             //Make sure developers running this sample replaced the API key
             if (key != "dadd3ae667817373dc7fd24ae347ac4c")
             {
